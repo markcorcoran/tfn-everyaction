@@ -54,7 +54,6 @@ header#logo .logo-image {
 
 .SmsSubscribeMobilePhone {
   /* margin-top: 20px; */
-  color: green !important;
 }
 
 .SmsSubscribeMobilePhone.hidden {
@@ -197,9 +196,8 @@ footer .html-caption-container {
 
 /* Donation Styles */
 
-
-.type-Donation .at form .label-otheramount input {
-  /* max-width: 191.4px; */
+.PaymentInformation .at-legend {
+  padding-top: 0px;
 }
 
 
