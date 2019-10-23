@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?1v49jf');
+  src:  url('../fonts/icomoon.eot?1v49jf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1v49jf') format('truetype'),
+    url('../fonts/icomoon.woff?1v49jf') format('woff'),
+    url('../fonts/icomoon.svg?1v49jf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e900";
+  color: #e4405f;
+}
+.icon-twitter:before {
+  content: "\e901";
+  color: #1da1f2;
+}
+.icon-facebook:before {
+  content: "\e902";
+  color: #4172b8;
+}
+
+.container, .container-fluid {
+  padding-top: 50px;
+}
+
+header#logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header#logo .logo-image {
+  max-width: 140px;
+  height: auto;
+}
+
+.SmsSubscribeMobilePhone {
+  /* margin-top: 20px; */
+}
+
+.SmsSubscribeMobilePhone.hidden {
+  margin-top: 0;
+  display: none !important;
+}
+
+.at-markup.SmsLegalDisclaimer {
+  margin-top: 10px !important;
+}
+
+.updateMyProfileSection span.text {
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+footer .html-caption-container {
+  margin: 0 auto;
+}
+
+
+/* SINGLE COLUMN LAYOUT */
+
+/* .one-column .disclaimer {
+  margin-bottom: 50px;
+} */
+
+.one-column  .ngp-form form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.one-column .HeaderHtml,
+.one-column header.at-title {
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .one-column .HeaderHtml,
+  .one-column header.at-title {
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: .8em;
+  }
+
+  .one-column header.at-title {
+    font-size: 1.15rem;
+  }
+
+  .one-column .at-form-submit {
+    text-align: center;
+  }
+
+  .one-column .at-form-submit input {
+    float: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .one-column .at-recurring span,
+  .one-column .at-check.CoverCostsAmount span {
+    font-size: 16px;
+  }
+
+  .one-column .ngp-form form {
+    background: #f7f7f7;
+    padding: 25px;
+  }
+
+  .one-column .fastAction {
+    background: #f7f7f7 !important;
+  }
+}
+
+/* TWO COLUMN LAYOUT */
+
+.two-column .at-title {
+  display: none;
+}
+
+.two-column .form-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.two-column .form-header .headline {
+  font-weight: 800 !important;
+  font-size: 2rem;
+}
+
+.two-column .ngp-content {
+  background-color: #f7f7f7;
+}
+
+.two-column #hero {
+  background-color: #fff;
+}
+
+.two-column #hero .hero-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.two-column #hero .hero-form {
+  padding: 25px;
+}
+
+.two-column .updateMyProfileSection {
+  margin-top: 20px
+}
+
+.two-column .form-header .headline {
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .hero-image {
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .two-column #hero .hero-form {
+    padding: 0px;
+  }
+
+  .two-column .form-header .headline {
+    font-size: 1.85rem;
+  }
+
+  .two-column .ngp-content {
+    background-color: #fff;
+  }
+}
+
+/* Donation Styles */
+
+
+.type-Donation .at form .label-otheramount input {
+  /* max-width: 191.4px; */
+}
+
+
+.type-Donation .btn-at-primary.at-submit {
+  background-color: #EE2E24;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all .5s;
+  border-color: #EE2E24;
+}
+
+.type-Donation .btn-at-primary.at-submit:hover {
+  background-color: #fff;
+  color: #EE2E24;
+  border-color: #EE2E24;
+
+}
+
+
+@media (min-width: 768px) {
+  .type-Donation .at-recurring span,
+  .type-Donation .at-check.CoverCostsAmount span {
+    font-size: 16px;
+  }
+}
+/* Multistep Styles */
+
+.page-ngp-multistep {
+
+}
+
+/* TFN STYLES */
+
+.style-TFN, .style-TFN p, .style-TFN div {
+  font-family: 'Adobe Garamond Pro',serif;
+}
+
+.style-TFN h1,
+.style-TFN h2,
+.style-TFN h3,
+.style-TFN h4,
+.style-TFN h5,
+.style-TFN h6,
+.style-TFN header.at-title {
+  color: #184578 !important;
+  font-family: Montserrat, sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.style-TFN input, .style-TFN label {
+  font-family: Montserrat, sans-serif;
+}
+
+.style-TFN .at form .label-amount > a {
+  background-color: #184578;
+}
+
+/* .style-TFN .at form .label-amount input[type="radio"]:checked + a,
+.style-TFN .at form .label-amount input:required {
+  background-color: #EE2E24;
+} */
+
+.style-TFN .at form .label-amount:hover > a {
+  background-color: #3E6B9E;
+}
+
+header.HeaderHtml {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: auto;
+}
+
+/* TXRISING STYLES */
+
+.style-TxRising.two-column .ngp-content {
+  /* background-color: #02929f; */
+}
+
+.style-TxRising h1,
+.style-TxRising h2,
+.style-TxRising h3,
+.style-TxRising h4,
+.style-TxRising h5,
+.style-TxRising h6,
+.style-TxRising header.at-title {
+  color: #02929f;
+  font-weight: 800;
+}
+
+/* JUST TEXAS STYLES */
+
+.style-JustTexas h1,
+.style-JustTexas h2,
+.style-JustTexas h3,
+.style-JustTexas h4,
+.style-JustTexas h5,
+.style-JustTexas h6,
+.style-JustTexas header.at-title {
+  color: #bd1d2b;
+  font-weight: 800;
+}
+
+
+.style-JustTexas .btn-at-primary.at-submit {
+  background-color: #bd1d2b;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all .5s;
+  border-color: #bd1d2b;
+}
+
+.style-JustTexas .btn-at-primary.at-submit:hover {
+  background-color: #fff;
+  color: #bd1d2b;
+  border-color: #bd1d2b;
+
+}
+/* User Portal */
+
+#NVSelfServicePortalRequest0 {
+  margin-top: 50px;
+}
+
+/* Basic social landing pages */
+
+.landing-social-tfn .social span {
+  font-size: 40px;
+  color: black;
+  opacity: .8;
+  margin: 0 15px;
+}
+
+.landing-social-tfn .social a:hover {
+  text-decoration: none;
+}
+
+.landing-social-tfn .disclaimer {
+  display: none !important;
+}
