@@ -54,6 +54,7 @@ header#logo .logo-image {
 
 .SmsSubscribeMobilePhone {
   /* margin-top: 20px; */
+  color: green !important;
 }
 
 .SmsSubscribeMobilePhone.hidden {
