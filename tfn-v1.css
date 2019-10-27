@@ -201,7 +201,7 @@ footer .html-caption-container {
 }
 
 
-.type-Donation .btn-at-primary.at-submit {
+.btn-at-primary.at-submit {
   background-color: #EE2E24;
   font-weight: bold;
   text-transform: uppercase;
@@ -209,7 +209,7 @@ footer .html-caption-container {
   border-color: #EE2E24;
 }
 
-.type-Donation .btn-at-primary.at-submit:hover {
+.btn-at-primary.at-submit:hover {
   background-color: #fff;
   color: #EE2E24;
   border-color: #EE2E24;
@@ -218,8 +218,8 @@ footer .html-caption-container {
 
 
 @media (min-width: 768px) {
-  .type-Donation .at-recurring span,
-  .type-Donation .at-check.CoverCostsAmount span {
+  .at-recurring span,
+  .at-check.CoverCostsAmount span {
     font-size: 16px;
   }
 }
